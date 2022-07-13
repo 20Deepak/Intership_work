@@ -1,0 +1,242 @@
+body
+{
+  background-color: whitesmoke;
+  margin:1.5% 10% 0 10%;
+  resize: both;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20;
+  height: 70px;
+  padding-right: 50px;
+  padding-left: 130px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+}
+
+li {
+  padding-left: 20px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 110%;
+  padding: 25px 1px;
+  text-decoration: none;
+}
+.logo1{
+  position:absolute;
+  margin-top: 0px;
+  right: 86.5%
+  
+}
+.logo2{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 120px;
+    right: 81.9%
+}
+
+li a:hover {
+  background-color: rgb(238, 241, 240);
+  border-radius: 8px;
+}
+
+.search-button
+{
+  background-color:white ;
+  border: 0 white;
+  position: relative;
+  width: 65px;
+  height: 60px;
+  left: 93.8%;
+  bottom: 80px;
+}
+.search-button:hover{
+  background-color:rgb(238, 241, 240);
+  border-radius: 8px;
+}
+
+.container-2
+{
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  
+
+}
+/* css for internal divs */
+.column {
+  float: left;
+  height: 120px;
+  width: 22.3%;
+  margin: 18px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container-3
+{
+  padding-top: 5px;
+  background-color: white;
+  width: 100%;
+  height: 42em;
+  line-height: 1.5;
+  border-radius: 8px;
+
+}
+.content
+{
+  margin: 20px;
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.content1{
+  background-image: url("fashion.jpeg");
+  background-size: cover;
+  border-radius: 8px;
+  
+
+}
+h2{
+
+  bottom: left;
+  padding-top: 80px;
+  padding-right: 120px;
+  
+}
+
+h3{
+
+  bottom: left;
+  padding-top: 370px;
+  padding-right: 300px;
+  float: left;
+}
+
+
+.content2{
+  background-image: url("fastfood.jpg");
+  background-size: cover;
+  border-radius: 8px;
+
+}
+.content3{
+  background-image: url("smartwatch.jpg");
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  float: right;
+  bottom: 98%;
+  border-radius: 8px;
+  
+}
+.content4{
+  background-image: url("images.jpg");
+  background-size: cover;
+  position: relative;
+  float: right;
+  bottom: 50%;
+  left: 27.5%;
+  border-radius: 8px;
+  
+}
+.content5
+{
+  background-image: url("nature.PNG");
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  bottom: 95%;
+  left: 27.5%;
+  width:42.5%;
+  height:92% ;
+  border-radius: 8px;
+}
+
+.conimage
+{
+  position:relative;
+  height: 100px;
+  width: 100px;
+  display:inline;
+  vertical-align:middle;
+}
+
+.Content-image1
+{
+  position:relative;
+  right:110px;
+  top:12px ;
+  border-radius: 50%;
+}
+
+.Content-image2
+{
+  position:relative;
+  right:110px;
+  top:12px;
+  border-radius: 50%;
+}
+.Content-image3
+{
+  position:relative;
+  right:110px;
+  top:12px;
+  border-radius: 50%;
+}
+.Content-image4
+{
+  position:relative;
+  right:110px;
+  top:12px;
+  border-radius: 50%;
+}
+.para1
+{
+  position: relative;
+  left: 120px;
+  bottom: 80px;
+  width: 65%;
+}
+.para2
+{
+  position: relative;
+  left: 120px;
+  bottom: 80px;
+  width: 65%;
+}
+.para3
+{
+  position: relative;
+  left: 120px;
+  bottom: 80px;
+  width: 65%;
+}
+.para4
+{
+  position: relative;
+  left: 120px;
+  bottom: 80px;
+  width: 65%;
+}
